@@ -1,11 +1,33 @@
+# Git internals (innecesario, pero no molesta)
 .git
+
+# Archivos de entorno
 .env
-.DS_Store
-airflow_settings.yaml
-__pycache__/
-astro
 .venv
+.DS_Store
+
+# Configuración de Airflow
+airflow_settings.yaml
 airflow-webserver.pid
 webserver_config.py
 airflow.cfg
 airflow.db
+
+# Astro local
+astro
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# Datos crudos y procesados
+*.json
+*.csv
+
